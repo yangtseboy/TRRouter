@@ -10,6 +10,6 @@ Pod::Spec.new do |s|
   s.author       = { "harry" => "xuyang.bu@gmail.com" }
   s.source       = { :git => "https://github.com/yangtseboy/TRRouter.git", :tag => "#{s.version}" }
   s.source_files = "TRRouter/**/*.*"
-  s.resources     = "Resources/*.*"
+  s.resources     = "TRRouter/Resources/*.*"
   s.requires_arc = true
 end
