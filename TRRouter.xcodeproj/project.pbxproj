@@ -10,6 +10,7 @@
 		299584DB1F079A97001C89C5 /* TRRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 299584D11F079A97001C89C5 /* TRRouter.framework */; };
 		299584E01F079A98001C89C5 /* TRRouterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 299584DF1F079A98001C89C5 /* TRRouterTests.m */; };
 		299584E21F079A98001C89C5 /* TRRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 299584D41F079A97001C89C5 /* TRRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		299584EC1F07AA33001C89C5 /* test.json in Sources */ = {isa = PBXBuildFile; fileRef = 299584EB1F07AA33001C89C5 /* test.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		299584DA1F079A97001C89C5 /* TRRouterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRRouterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		299584DF1F079A98001C89C5 /* TRRouterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRRouterTests.m; sourceTree = "<group>"; };
 		299584E11F079A98001C89C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		299584EB1F07AA33001C89C5 /* test.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = test.json; path = TRRouter/Resources/test.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 		299584C71F079A97001C89C5 = {
 			isa = PBXGroup;
 			children = (
+				299584EB1F07AA33001C89C5 /* test.json */,
 				299584D31F079A97001C89C5 /* TRRouter */,
 				299584DE1F079A98001C89C5 /* TRRouterTests */,
 				299584D21F079A97001C89C5 /* Products */,
@@ -197,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				299584EC1F07AA33001C89C5 /* test.json in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
