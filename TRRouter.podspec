@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "TRRouter"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "A Path Router for different stratogies"
   s.homepage     = "https://github.com/yangtseboy/TRRouter.git"
   s.license      = "Copyright (c) 2017年 YANGSTEBOY. All rights reserved."
